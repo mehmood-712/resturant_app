@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Nutrition App',
+      title: 'Nutrition App UI Design',
       theme: ThemeData(
         scaffoldBackgroundColor: AppColors.scaffoldBackground,
         fontFamily: 'Roboto',
