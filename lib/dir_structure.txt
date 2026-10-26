@@ -1,0 +1,40 @@
+lib/
+│
+├── constants/
+│   └── app_colors.dart
+│
+├── widgets/
+│   └── custom_bottom_nav_bar.dart
+│
+├── screens/
+│   ├── meal_plan_screen.dart
+│   ├── journal_screen.dart
+│   └── learning_screen.dart
+│
+├── layouts/
+│   └── main_layout.dart
+│
+└── main.dart
+
+// change the above structure via Prompt to the below structure
+
+lib/
+├── constants/
+│   └── app_colors.dart
+├── layouts/
+│   └── main_layout.dart
+├── widgets/
+│   └── custom_bottom_nav_bar.dart
+├── features_meal_plan/
+│   ├── meal_plan_screen.dart
+│   ├── personalise_banner.dart
+│   └── meal_card.dart
+├── features_journal/
+│   ├── journal_screen.dart
+│   ├── calories_card.dart
+│   ├── macro_progress_row.dart
+│   └── meal_category_card.dart
+└── features_learning/
+    ├── learning_screen.dart
+    ├── filter_chips_row.dart
+    └── article_card.dart
